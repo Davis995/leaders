@@ -89,9 +89,11 @@ function PortraitCluster() {
         </div>
       ))}
       <div className="absolute -bottom-6 -left-6 hidden lg:flex items-center gap-3 rounded-2xl bg-card border border-border px-4 py-3 shadow-lg">
-        <div className="grid place-items-center w-9 h-9 rounded-full bg-accent text-accent-foreground">
-          <Sparkles className="w-4 h-4" />
-        </div>
+        <img 
+          src="/logo.png" 
+          alt="iLead Logo" 
+          className="w-10 h-10 object-contain mix-blend-multiply"
+        />
         <div className="text-xs">
           <div className="font-semibold">500+ youth empowered</div>
           <div className="text-muted-foreground">Across 20+ cohorts</div>

@@ -7,11 +7,12 @@ export function Footer() {
       <div className="mx-auto max-w-[1440px] px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5">
-            <div className="flex items-center gap-2 text-xl font-semibold">
-              <span className="grid place-items-center w-9 h-9 rounded-full bg-accent text-accent-foreground">
-                <Sparkles className="w-4 h-4" />
-              </span>
-              iLead Mentorship
+            <div className="flex items-center">
+              <img 
+                src="/logo.png" 
+                alt="iLead Mentorship Logo" 
+                className="h-16 w-auto object-contain brightness-0 invert"
+              />
             </div>
             <p className="mt-4 text-primary-foreground/70 max-w-md">
               Empowering young people to lead with confidence, purpose and impact through mentorship,
